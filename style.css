@@ -1,0 +1,51 @@
+
+
+h1 {
+background-color:Gray;
+color: Gold;
+}
+
+body {
+background-image: url("background.jpg");
+}
+
+p {
+font-family: "cambria";
+} 
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: darkgreen;
+}
+
+/* mouse over link */
+a:hover {
+    color: Blue;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+table {
+    width: 40%;
+}
+
+th {
+    height: 50px;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+table td, th { 
+text-align: center;
+}
