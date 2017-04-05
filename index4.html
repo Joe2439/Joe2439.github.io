@@ -18,7 +18,7 @@
 	 <a href="index.html"> Home </a> || <a href="index2.html"> Animals </a> || <a /href="index3.html"> WallArt </a>
 	 <br>
 	 <h2> Contact Us </h2>
-   <form action = "">
+   <form action = "" method="post">
     <p>
      <!--Textbox for first name, last name, email address, a set of radio buttons/
     	    dropdown, comment box, reset and submit button -->
@@ -27,30 +27,30 @@
     	 <br /><br />
 
 
-    	 <label> First name <br />
-    	 <Input type ="text" name= "name" size ="30" /> </label> <br />
+    	<label> First name <br />
+		<Input type ="text" name= "FirstName" required size ="30"/> </label> <br />
 
-    	 <label> Last name <br />
-    	 <Input type ="text" name= "name" size ="30" /> </label> <br />
+		<label> Last name <br />
+		<Input type ="text" name= "LastName" required size ="30" /> </label> <br />
 
-    	 <label> Email address <br />
-    	 <Input type ="text" name= "email" size ="30" /> </label> <br />
-    	 <br />
+		<label> Email address <br />
+	    <Input type ="text" name= "Email" required size ="30" /> </label> <br />
+		<br />
 
-    	<Select>
-    	 <Option> Choose One</Option>
-    	 <Option> Question </Option>
-    	 <Option> Problem </Option>
-    	 <Option> Order Status </Option>
-    	</select>
+
+    	<Select required>
+		<Option value=""> Choose One </Option>
+		<Option value="Question"> Question </Option>
+		<Option value="Problem"> Problem </Option>
+		<Option value="Order Status"> Problem </Option>
+		</select>
 
     	<br /> <br />
 
-		 <label> Comment <br />
-    	 <textarea name="comment" rows="7" cols="40">
-	     </textarea>
+		 <label> Comment <br /></label>
+		 <textarea name="comment" rows="7" cols="40" required ></textarea>
 
-	     <br /><br/>
+		 <br /><br/>
 
 		 <input type = "submit" value ="Submit Form">
 		 <input type = "reset" value ="Reset Form">
