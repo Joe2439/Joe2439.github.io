@@ -1,0 +1,28 @@
+//Click the red button
+$('redlight').click(function() {
+
+
+        // get the width of the cars
+        var vehicle1 = $('bluecar').width();
+
+        //get the width of the track
+        var track = $(window).left() - vehicle1;
+
+        //generate random number
+        var raceTime1 = Math.floor( (Math.random() * 2000) + 1 );
+        var raceTime2 = Math.floor( (Math.random() * 2000) + 1 );
+
+        //check to see if car has finished the race
+        var racecomplete = false;
+
+        //first car
+        var position = 'number1';
+
+        //move the blue car
+        $('bluecar').animate({
+               left: track
+        }, raceTime1, function() {
+
+		});
+
+
