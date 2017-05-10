@@ -1,0 +1,112 @@
+body {
+background-color:#DCDCDC;
+}
+
+#bluecar{
+    position:relative;
+    left:30px;
+    top: 30px;
+    height: 60px;
+    width: 120px;
+}
+
+#orangecar{
+    position:relative;
+    left:30px;
+    top: 30px;
+    height: 60px;
+    width: 120px;
+}
+
+.bluecar{
+    position:relative;
+    left:30px;
+    top: 30px;
+    height: 60px;
+    width: 120px;
+}
+
+.orangecar{
+    position:relative;
+    left: 30px;
+    top: 30px;
+    height: 60px;
+    width: 120px;
+}
+
+.finishline{
+    position: absolute;
+    left: 900px;
+    top: 212px;
+    height: 250px;
+    width: 60px;
+  }
+
+.redlight {
+	position:relative;
+	left: 600;
+	top: 500
+	height: 50px;
+	width: 50px;
+}
+
+.greenlight {
+	position:relative;
+	left: 200;
+	top: 700;
+	height: 30px;
+	width: 30px;
+	}
+
+	
+.dash{
+  border: 0 none;
+  border-top: 4px dashed #322f32;
+  border-color: white;
+  height:0;
+} 
+
+
+topline{
+  border: 0 none;
+  border-top: 6px dashed #322f32;
+  border-color: white;
+  height:0;
+} 
+
+p.topline{
+    border-top-style: double;
+    background-color:white;
+    border-width: 50px;
+}
+
+p.middleline{
+    border-bottom-style: dashed;
+    background-color:black; 			
+    border-width: 4px;
+}
+
+p.bottomline{
+    border-bottom-style: double;
+    background-color:white; 
+    border-width: 4px;
+}
+
+.orangecarwins{
+	 position:relative;
+    left: 650x;
+    top: 30px;
+    height: 200px;
+    width: 200px;
+}
+
+.bluecarwins{
+    position:relative;
+    left: 650x;
+    top: 40px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
